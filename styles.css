@@ -1,0 +1,77 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1{
+    color:rgb(53, 237, 237);
+}
+
+form{
+    background-color: white;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding:25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(64, 55, 55);
+}
+
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border:2px solid black;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 15px;
+    background-color:blueviolet ;
+    font-size: 14px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(71, 10, 129);
+}
+
+#result{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.theme{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(50, 47, 47);
+}
+
+.theme:hover{
+    background-color:rgb(50, 47, 47) ;
+}
+
+.dark .theme{
+    background-color: rgb(232, 228, 228);
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.dark form{
+    color: white;
+    background-color: rgb(38, 36, 36);
+}
